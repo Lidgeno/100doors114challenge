@@ -101,8 +101,8 @@ for counter1 in range(0,512,1):
         print("!!!!! SOLUTION !!!!!")
         print(counter1)
         result=counter1
-    # well this displays the last answer at the end (although there might be intermediate answers)
-    if(result = -1):
-        print("sorry, no answer detected")
-    else:
-        print(seriepush(result))
+# well this displays the last answer at the end (although there might be intermediate answers)
+if(result == -1):
+    print("sorry, no answer detected")
+else:
+    print(seriepush(result))
