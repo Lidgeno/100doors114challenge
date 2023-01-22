@@ -105,4 +105,4 @@ for counter1 in range(0,512,1):
 if(result == -1):
     print("sorry, no answer detected")
 else:
-    print(seriepush(result))
+    seriepush(result)
